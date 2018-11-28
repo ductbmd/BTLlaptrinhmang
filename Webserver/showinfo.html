@@ -19,6 +19,7 @@
 
 		<!-- Custom stlylesheet -->
 		<link type="text/css" rel="stylesheet" href="css/style.css"/>
+		<!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"> -->
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -136,44 +137,77 @@
 			<div class="container">
 				<!-- row -->
 				<div class="row">
-					<div class="col-md-6">
-						<div class="section-row">
-							<h3>Contact Information</h3>
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-							<ul class="list-style">
-								<li><p><strong>Email:</strong> <a href="#">Webmag@email.com</a></p></li>
-								<li><p><strong>Phone:</strong> 213-520-7376</p></li>
-								<li><p><strong>Address:</strong> 3770 Oliver Street</p></li>
-							</ul>
-						</div>
+					<div class="col-md-8 text-center" >
+						<h2>User Information</h2>
+						<table  class="table table-bordered">
+							<thead>
+								<tr>
+						         <th>User Name</th>
+						         <th>Pass Word</th>
+						         <th>First Name</th>
+						         <th>Last Name</th>
+						         <th>Email</th>
+						      	</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<th>MinhDuc</th>
+									<th>*****</th>
+									<th>To Ba</th>
+									<th>Minh Duc</th>
+									<th>minhduc98kl@gmail.com</th>
+								</tr>
+							</tbody>
+						</table>
 					</div>
-					<div class="col-md-5 col-md-offset-1">
-						<div class="section-row">
-							<h3>Send A Message</h3>
-							<form>
-								<div class="row">
-									<div class="col-md-7">
-										<div class="form-group">
-											<span>Email</span>
-											<input class="input" type="email" name="email">
-										</div>
-									</div>
-									<div class="col-md-7">
-										<div class="form-group">
-											<span>Subject</span>
-											<input class="input" type="text" name="subject">
-										</div>
-									</div>
-									<div class="col-md-12">
-										<div class="form-group">
-											<textarea class="input" name="message" placeholder="Message"></textarea>
-										</div>
-										<button class="primary-button">Submit</button>
-									</div>
+					<!-- aside -->
+					<div class="col-md-4">
+						<!-- ad -->
+						<div class="aside-widget text-center">
+							<a href="#" style="display: inline-block;margin: auto;">
+								<img class="img-responsive" src="./img/map.jpeg" alt="">
+							</a>
+						</div>
+						<!-- /ad -->
+
+						<!-- post widget -->
+						<div class="aside-widget">
+							<div class="section-title">
+								<h2>Most Read</h2>
+							</div>
+
+							<div class="post post-widget">
+								<a class="post-img" href="blog-post.html"><img src="./img/small-article1.jpeg" alt=""></a>
+								<div class="post-body">
+									<h3 class="post-title"><a href="blog-post.html">Trường đại học Bách Khoa Hà Nội tổ chức "tour" trải nghiệm đại học- định hướng</a></h3>
 								</div>
-							</form>
+							</div>
+
+							<div class="post post-widget">
+								<a class="post-img" href="blog-post.html"><img src="./img/small-post-1-1.jpeg" alt=""></a>
+								<div class="post-body">
+									<h3 class="post-title"><a href="blog-post.html">Ấm áp buổi gặp mặt tri ân ngày Nhà giáo Việt Nam năm 2018</a></h3>
+								</div>
+							</div>
+
+							<div class="post post-widget">
+								<a class="post-img" href="blog-post.html"><img src="./img/widget-3.jpg" alt=""></a>
+								<div class="post-body">
+									<h3 class="post-title"><a href="blog-post.html">Why Node.js Is The Coolest Kid On The Backend Development Block!</a></h3>
+								</div>
+							</div>
+
+							<div class="post post-widget">
+								<a class="post-img" href="blog-post.html"><img src="./img/widget-4.jpg" alt=""></a>
+								<div class="post-body">
+									<h3 class="post-title"><a href="blog-post.html">Tell-A-Tool: Guide To Web Design And Development Tools</a></h3>
+								</div>
+							</div>
 						</div>
+						</div>
+						<!-- /post widget -->
 					</div>
+					<!-- /aside -->
 				</div>
 				<!-- /row -->
 			</div>
